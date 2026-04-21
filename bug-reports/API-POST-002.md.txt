@@ -1,0 +1,34 @@
+# BUG – API-POST-002
+
+## Title
+API accepts invalid POST data without validation
+
+
+## Description
+The endpoint allows creation of resources with empty or null fields without any validation.
+
+
+## Steps to Reproduce
+
+1. Send POST request to /posts
+2. Include empty or null fields
+3. Observe response
+
+
+## Expected Behavior
+The API should validate input and reject invalid data
+
+
+## Actual Behavior
+The API accepts invalid data and returns 201 Created
+
+
+## Impact
+This may lead to data inconsistency and unreliable database records
+
+
+## Severity
+HIGH
+
+## Priority
+HIGH
