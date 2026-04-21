@@ -32,3 +32,9 @@ HIGH
 
 ## Priority
 HIGH
+
+## Evidence
+
+POST request with invalid payload accepted:
+
+![Invalid POST Accepted](../assets/api/postman-post-invalid.png)
